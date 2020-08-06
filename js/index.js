@@ -1,7 +1,7 @@
 //Selectors
-let popupContainer = document.querySelector('.share');
+let popupContainer = document.querySelector('.avatar_container');
 let popup = document.querySelector('#myPopup');
-let shareBtn = document.querySelector('#share-btn');
+
 
 
 
@@ -14,6 +14,7 @@ popupContainer.addEventListener('click', popupFunction);
 function popupFunction() {
 
     popup.classList.toggle("show");
-    
+
 }
+
 
